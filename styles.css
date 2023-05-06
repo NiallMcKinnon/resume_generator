@@ -1,0 +1,114 @@
+@page {
+    size: 8.5in 11in;
+    margin: 0.25in 0.5in 0.25in 0.5in;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 8.5in; */
+}
+
+.resume-title {
+    /* border: 1px solid red; */
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.name {
+    /* border: 2px solid green; */
+    font-size: 60pt;
+    margin: -10px -7px -15px -7px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.subtitles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+.subtitles label:nth-child(1) {
+    text-align: left
+}
+
+.subtitles label:nth-child(2) {
+    text-align: center
+}
+
+.subtitles label:nth-last-child(1) {
+    text-align: right
+}
+
+* {
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+.section {
+    width: 100%;
+    margin-top: 7pt;
+}
+
+.section-header h2 {
+    margin: 0;
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+.section-header hr {
+    background-color: black;
+}
+
+.experience {
+    font-size: 10pt;
+    margin-top: 3pt;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.experience-header label:nth-child(1) {
+    font-weight: 600;
+}
+
+.date {
+    text-transform: uppercase;
+}
+
+.description {
+    list-style: none;
+    /* width: 65%; */
+    padding-left: 25px;
+    padding-right: 170px;
+    font-size: 8pt;
+}
+
+.description li {
+    margin-top: 3pt;
+}
+
+.skills {
+    display: table;
+    font-size: 10pt;
+}
+
+.skills tr td:nth-child(1) {
+    font-weight: 600;
+    padding-right: 20px;
+}

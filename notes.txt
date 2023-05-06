@@ -1,0 +1,25 @@
+
+
+.subtitles {
+    display: table;
+    table-layout: auto;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+.subtitles label {
+    display: table-cell;
+    margin: 0;
+    text-align: center;
+    /* flex-grow: 1;
+    text-align: center;
+    width: fit-content; */
+}
+
+.subtitles label:first-child {
+    text-align: left;
+}
+
+.subtitles label:last-child {
+    text-align: right;
+}
