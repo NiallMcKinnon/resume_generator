@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* font-size: 8pt; */
     /* width: 8.5in; */
 }
 
@@ -62,6 +63,17 @@ body {
 .section {
     width: 100%;
     margin-top: 7pt;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.section-title label {
+    font-size: 8pt;
+    padding-left: 5pt;
 }
 
 .section-header h2 {
